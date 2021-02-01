@@ -27,8 +27,17 @@ diseases are not detected and cured in early stages. The plants have to be monit
 time in order to detect the first symptoms of a disease before it spreads to the whole crop.
 Remote monitoring through machine vision can provide an alternative option. Nondestructive
 techniques like image processing can be used for plant disease diagnosis based on its
-symptoms. There are many applications existing in the same domain which need high
+symptoms. There are many applications existing in the same domain which need high 
 computational power to get accurate results. We believe that effectiveness of an application is
 when it reaches the respective end users which in this case is the farmers. These applications
 are not accessible to our farmers due to expense. Thus, our application bridges the gap
 between state-of-the-art technologies and farmers.
+
+# Features
+• build_optimal_network algorithm,this algorithm uses back tracking to select the
+most optimal model for prediction.
+• train_network_to_convergence algorithm.
+• Transfer of CNN model to TensorFlow lite to easily deploy pre-tranied model on
+Android apps.
+• Stand-alone application to overcome the disadvantages of the client server
+architecture so that the mobile application works without internet
